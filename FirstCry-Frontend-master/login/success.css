@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+#success_div {
+    width: 50%;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#success_div img{
+    width: 100px;
+    height: 100px;
+}
+
+#success_div button{
+    padding: 8px 20px;
+    margin: 20px;
+    font-size: 16px;
+    color: #01a601;
+    border: none;
+    border-radius: 7px;
+    border: 1px solid #01a601;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .2s ease;
+}
+
+#success_div button:hover{
+    background-color: #01a601;
+    color: #fff;
+}
